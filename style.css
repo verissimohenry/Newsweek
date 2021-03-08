@@ -2,6 +2,18 @@
                 ****** RESET ******
   ============================================== */
 
+  .svg {
+    fill: aliceblue;
+  }
+
+  .first {
+    background-color: #f72210;
+  }
+
+  .last > a:hover {
+    color: #f72210 !important;
+  }
+
 :root {
   --color-red: #f42;
   --bg-color-red: #f42;
@@ -54,9 +66,70 @@ body {
   min-height: 50%;
 }
 
-@media screen and (max-width: 720px) {
+.sub {
+  border-radius: 10px;
+}
+
+
+@media screen and (max-width: 425px) {
+  .lg {
+    display: flex;
+    width: 100vw;
+    position: absolute;
+    top: 3px;
+    left: 200px;
+  }
+}
+
+@media screen and (max-width: 780px) {
   .footer-top .bottom-logo {
     margin: 0 0 0.5em 0.6em;
+  }
+
+  .svg {
+    height: 20px;
+    width: 130px;
+  }
+
+  .first {
+    display: flex !important;
+    justify-content: space-between !important;
+    flex-wrap: wrap;
+  }
+
+  .lg {
+    display: flex;
+    width: 30vw;
+    position: absolute;
+    top: 5px;
+    right: 0;
+  }
+
+  .lg1 {
+    display: flex;
+    width: 40vw;
+    position: absolute;
+    top: 5px;
+    right: 100px;
+  }
+}
+
+@media screen and (min-width: 1020px) {
+  .lg {
+    position: absolute;
+    top: 5%;
+    right: 5%;
+  }
+
+  .lg1 {
+    position: absolute;
+    top: 5%;
+    right: 20%;
+  }
+
+  .svg {
+    position: relative;
+    right: -65%;
   }
 }
 
