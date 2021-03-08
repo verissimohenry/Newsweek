@@ -1,7 +1,6 @@
- /* ==============================================
+ /*==============================================
                 ****** RESET ******
-    ==============================================
-*/
+  ==============================================*/
 
 :root {
   --color-red: #f42;
@@ -66,6 +65,7 @@ body {
   font-size: 0.8rem;
   color: #666;
 }
+
 .footer-top .social-icons a {
   color: #666;
   font-size: 0.933rem;
@@ -95,7 +95,7 @@ body {
 
 @media screen and (max-width: 720px) {
   .footer-links .footer-links-edition li,
-.footer-links .footer-links-mini li {
+  .footer-links .footer-links-mini li {
     border: none;
   }
 }
@@ -111,6 +111,5 @@ body {
 .footer-links .footer-links-mini :hover {
   color: black;
 }
-
 
 /* footer */
