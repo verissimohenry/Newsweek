@@ -70,6 +70,24 @@ body {
   border-radius: 10px;
 }
 
+.first-bottom {
+  background-color: #f72210;
+  border-bottom: 2px solid #eeeeee;
+  width: 66px !important;
+  position: absolute;
+  top: 88px;
+  right: 0;
+  content: "";
+  display: block;
+  background-color: #f72210;
+  border-left: 12px solid white;
+  border-top: 13px solid #f72210;
+}
+
+::before {
+  box-sizing: border-box;
+}
+
 @media screen and (max-width: 425px) {
   .lg {
     display: flex;
