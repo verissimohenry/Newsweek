@@ -87,6 +87,11 @@ body {
   border-top: 13px solid #f72210;
 }
 
+.content {
+  position: fixed;
+  bottom: 0;
+}
+
 @media screen and (max-width: 425px) {
   .lg {
     display: flex;
