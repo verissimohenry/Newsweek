@@ -4,7 +4,7 @@
 > We were asked to  Create these sections of the website for the 3 screen sizes.
 
 ## Project Screenshot
-![screenshot](assest/Screenshot.png)
+![screenshot](assest/sc.png)
 
 
 Additional description about the project and its features.
