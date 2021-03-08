@@ -70,6 +70,10 @@ body {
   border-radius: 10px;
 }
 
+::before {
+  box-sizing: border-box;
+}
+
 .first-bottom {
   background-color: #f72210;
   border-bottom: 2px solid #eeeeee;
@@ -79,13 +83,8 @@ body {
   right: 0;
   content: "";
   display: block;
-  background-color: #f72210;
   border-left: 12px solid white;
   border-top: 13px solid #f72210;
-}
-
-::before {
-  box-sizing: border-box;
 }
 
 @media screen and (max-width: 425px) {
