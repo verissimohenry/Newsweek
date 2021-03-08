@@ -2,17 +2,21 @@
                 ****** RESET ******
   ============================================== */
 
-  .svg {
-    fill: aliceblue;
-  }
+.svg {
+  fill: aliceblue;
+}
 
-  .first {
-    background-color: #f72210;
-  }
+.first {
+  background-color: #f72210;
+}
 
-  .last > a:hover {
-    color: #f72210 !important;
-  }
+a:hover {
+  color: #333;
+}
+
+.last > a:hover {
+  color: #f72210 !important;
+}
 
 :root {
   --color-red: #f42;
@@ -36,10 +40,6 @@ ul {
 a {
   text-decoration: none;
   color: white;
-}
-
-a:hover {
-  color: #333;
 }
 
 /*
@@ -69,7 +69,6 @@ body {
 .sub {
   border-radius: 10px;
 }
-
 
 @media screen and (max-width: 425px) {
   .lg {
