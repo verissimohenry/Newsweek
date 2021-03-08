@@ -3,7 +3,8 @@
 > In the first milestone, we were asked to  prepare the tools to develop this website and will create 2 small sections(ie the Header and footer).
 > We were asked to  Create these sections of the website for the 3 screen sizes.
 
-![screenshot](./app_screenshot.png)
+## Project Screenshot
+![screenshotZ](https://user-images.githubusercontent.com/69446259/110341646-3cff8c00-8033-11eb-9611-d91edcb51eee.PNG)
 
 
 Additional description about the project and its features.
