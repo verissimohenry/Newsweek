@@ -4,7 +4,7 @@
 > We were asked to  Create these sections of the website for the 3 screen sizes.
 
 ## Project Screenshot
-![screenshotZ](https://user-images.githubusercontent.com/69446259/110341646-3cff8c00-8033-11eb-9611-d91edcb51eee.PNG)
+![screenshot](assest/Screenshot.png)
 
 
 Additional description about the project and its features.
