@@ -20,7 +20,7 @@
 
 a:hover {
   color: #333;
-} 
+}
 
 .last > a:hover {
   color: #f72210 !important;
@@ -148,24 +148,24 @@ body {
     width: 40px;
     color: white;
   }
-  
+
   .header {
     width: 100%;
   }
-  
+
   .rOne1 {
     width: 100vw;
   }
-  
+
   .one1 {
     display: none;
   }
-  
+
   .one2 {
     position: relative;
     left: 1%;
   }
-  
+
   .one3 {
     position: relative;
     right: 1%;
@@ -208,24 +208,24 @@ body {
     top: -6px;
     right: -70%;
   }
-  
+
   .header {
     width: 100%;
   }
-  
+
   .rOne1 {
     width: 100vw;
   }
-  
+
   .one1 {
     display: none;
   }
-  
+
   .one2 {
     position: relative;
     left: 1%;
   }
-  
+
   .one3 {
     position: relative;
     right: 1%;
@@ -241,15 +241,15 @@ body {
   .rOne {
     width: 100vw;
   }
-  
+
   .header {
     width: 100%;
   }
-  
+
   .rOne1 {
     width: 100vw;
   }
-  
+
   .one1 {
     position: relative;
     left: 0;
@@ -259,12 +259,12 @@ body {
   .fa-user {
     display: none;
   }
-  
+
   .one2 {
     position: relative;
     left: 1%;
   }
-  
+
   .one3 {
     position: relative;
     right: 1%;
