@@ -324,6 +324,21 @@ body {
     right: 1%;
     top: 25px !important;
   }
+
+  
+  .sub {
+    font-size: 18px;
+    position: relative;
+    top: 0;
+    right: 3%;
+  }
+
+  .log {
+    font-size: 18px;
+    position: relative;
+    top: 0;
+    right: 10%;
+  }
 }
 
 .footer-top p {
