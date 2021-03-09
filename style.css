@@ -592,6 +592,47 @@ figure {
   margin-inline-end: 40px;
 }
 
+.pb-2 {
+  padding-bottom: .5rem!important;
+}
+
+.card-body {
+  flex: 1 1 auto;
+  padding: 1rem 1rem;
+}
+
+.card-body {
+  margin: 10px 0 25px 0;
+  padding: 0;
+}
+
+h3 {
+  display: block;
+  font-size: 1.17em;
+  margin-block-start: 1em;
+  margin-block-end: 1em;
+  margin-inline-start: 0px;
+  margin-inline-end: 0px;
+  font-weight: bold;
+}
+
+.card-body a {
+  text-decoration: none;
+  color: #111;
+}
+
+.lh-sm {
+  line-height: 1.25!important;
+}
+
+p {
+  display: block;
+  margin-block-start: 1em;
+  margin-block-end: 1em;
+  margin-inline-start: 0px;
+  margin-inline-end: 0px;
+}
+
 /* main */
 
 /* footer */
