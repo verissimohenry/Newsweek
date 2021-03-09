@@ -119,7 +119,61 @@ body {
   border-top: 13px solid #f72210;
 }
 
-@media screen and (max-width: 425px) {
+@media screen and (max-width: 320px) {
+  .rOne {
+    width: 100vw;
+  }
+
+  .fa-user {
+    position: relative;
+    right: -85%;
+  }
+
+  .svg {
+    width: 150px;
+  }
+
+  .sub {
+    font-size: 13px;
+    position: relative;
+    top: -6px;
+    right: -40%;
+  }
+
+  .fa-bars {
+    padding-top: 10%;
+    position: relative;
+    right: -105%;
+    font-size: 13px;
+    width: 40px;
+    color: white;
+  }
+
+  .header {
+    width: 100%;
+  }
+
+  .rOne1 {
+    width: 100vw;
+  }
+
+  .one1 {
+    display: none;
+  }
+
+  .one2 {
+    position: relative;
+    left: 1%;
+  }
+
+  .one3 {
+    position: relative;
+    right: 1%;
+    top: 25px !important;
+  }
+}
+
+@media screen and (min-width: 321px) and (max-width: 425px) {
   .rOne {
     width: 100vw;
   }
