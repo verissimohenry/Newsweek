@@ -499,6 +499,57 @@ article .wrap .category a {
   z-index: 1;
 }
 
+article .wrap img {
+  position: relative;
+  width: 100%;
+}
+
+.figure-img {
+  margin-bottom: .5rem;
+  line-height: 1;
+}
+
+.img-fluid {
+  max-width: 100%;
+  height: auto;
+}
+
+img, svg {
+  vertical-align: middle;
+}
+
+article h3 {
+  font-family: "Roboto Condensed", sans-serif;
+  font-weight: 700;
+  font-size: 1.5rem;
+  line-height: 24px;
+}
+
+.h3 {
+  margin-top: 0;
+  margin-bottom: .5rem;
+  font-weight: 500;
+  line-height: 1.2;
+}
+
+article h3 a {
+  text-decoration: none;
+  color: #111;
+}
+
+.lh-sm {
+  line-height: 1.25!important;
+}
+
+article p {
+  font-size: 0.9rem;
+}
+
+p {
+  margin-top: 0;
+  margin-bottom: 1rem;
+}
+
 /* main */
 
 /* footer */
