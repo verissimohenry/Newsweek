@@ -6,18 +6,21 @@
   fill: aliceblue;
 }
 
+.lastN {
+  font-size: 11px;
+}
+
+.lastN1 {
+  font-size: 11px;
+}
+
 .first {
   background-color: #f72210;
 }
 
-a {
-  text-decoration: none;
-  color: white;
-}
-
 a:hover {
   color: #333;
-}
+} 
 
 .last > a:hover {
   color: #f72210 !important;
@@ -26,6 +29,35 @@ a:hover {
 :root {
   --color-red: #f42;
   --bg-color-red: #f42;
+}
+
+.rOne {
+  width: 100vw;
+}
+
+.header {
+  width: 100%;
+}
+
+.rOne1 {
+  width: 100vw;
+}
+
+.one1 {
+  position: relative;
+  left: 0;
+  top: 25px;
+}
+
+.one2 {
+  position: relative;
+  left: 1%;
+}
+
+.one3 {
+  position: relative;
+  right: 1%;
+  top: 25px !important;
 }
 
 *,
@@ -79,7 +111,7 @@ body {
   border-bottom: 2px solid #eee;
   width: 66px !important;
   position: absolute;
-  top: 88px;
+  top: 60px;
   right: 0;
   content: "";
   display: block;
@@ -87,70 +119,156 @@ body {
   border-top: 13px solid #f72210;
 }
 
-.content {
-  position: fixed;
-  bottom: 0;
-}
-
 @media screen and (max-width: 425px) {
-  .lg {
-    display: flex;
+  .rOne {
     width: 100vw;
-    position: absolute;
-    top: 3px;
-    left: 200px;
+  }
+
+  .fa-user {
+    position: relative;
+    right: -85%;
+  }
+
+  .svg {
+    width: 150px;
+  }
+
+  .sub {
+    font-size: 13px;
+    position: relative;
+    top: -6px;
+    right: -95%;
+  }
+
+  .fa-bars {
+    padding-top: 10%;
+    position: relative;
+    right: -200%;
+    font-size: 13px;
+    width: 40px;
+    color: white;
+  }
+  
+  .header {
+    width: 100%;
+  }
+  
+  .rOne1 {
+    width: 100vw;
+  }
+  
+  .one1 {
+    display: none;
+  }
+  
+  .one2 {
+    position: relative;
+    left: 1%;
+  }
+  
+  .one3 {
+    position: relative;
+    right: 1%;
+    top: 25px !important;
   }
 }
 
-@media screen and (max-width: 780px) {
+@media screen and (min-width: 430px) and (max-width: 780px) {
+  .rOne {
+    width: 100vw;
+  }
+
+  .svg {
+    width: 150px;
+  }
+
+  .fa-user {
+    display: none;
+  }
+
+  .sub {
+    font-size: 18px;
+    position: relative;
+    top: -6px;
+    right: -90%;
+  }
+
+  .fa-bars {
+    padding-top: 0;
+    position: relative;
+    right: -100%;
+    font-size: 18px;
+    width: 40px;
+    color: white;
+  }
+
+  .log {
+    font-size: 18px;
+    position: relative;
+    top: -6px;
+    right: -70%;
+  }
+  
+  .header {
+    width: 100%;
+  }
+  
+  .rOne1 {
+    width: 100vw;
+  }
+  
+  .one1 {
+    display: none;
+  }
+  
+  .one2 {
+    position: relative;
+    left: 1%;
+  }
+  
+  .one3 {
+    position: relative;
+    right: 1%;
+    top: 25px !important;
+  }
+
   .footer-top .bottom-logo {
     margin: 0 0 0.5em 0.6em;
   }
-
-  .svg {
-    height: 20px;
-    width: 130px;
-  }
-
-  .first {
-    display: flex !important;
-    justify-content: space-between !important;
-    flex-wrap: wrap;
-  }
-
-  .lg {
-    display: flex;
-    width: 30vw;
-    position: absolute;
-    top: 5px;
-    right: 0;
-  }
-
-  .lg1 {
-    display: flex;
-    width: 40vw;
-    position: absolute;
-    top: 5px;
-    right: 100px;
-  }
 }
 
-@media screen and (min-width: 1020px) {
-  .lg {
-    position: absolute;
-    top: 5%;
-    right: 5%;
+@media screen and (min-width: 790px) {
+  .rOne {
+    width: 100vw;
   }
-
-  .lg1 {
-    position: absolute;
-    top: 5%;
-    right: 20%;
+  
+  .header {
+    width: 100%;
   }
-
-  .svg {
+  
+  .rOne1 {
+    width: 100vw;
+  }
+  
+  .one1 {
     position: relative;
-    right: -65%;
+    left: 0;
+    top: 25px;
+  }
+
+  .fa-user {
+    display: none;
+  }
+  
+  .one2 {
+    position: relative;
+    left: 1%;
+  }
+  
+  .one3 {
+    position: relative;
+    right: 1%;
+    top: 25px !important;
   }
 }
 
