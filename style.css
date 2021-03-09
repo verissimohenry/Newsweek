@@ -1,8 +1,27 @@
- /*
-    ==============================================
+/* ==============================================
                 ****** RESET ******
-    ==============================================
-*/
+  ============================================== */
+
+.svg {
+  fill: aliceblue;
+}
+
+.first {
+  background-color: #f72210;
+}
+
+a {
+  text-decoration: none;
+  color: white;
+}
+
+a:hover {
+  color: #333;
+}
+
+.last > a:hover {
+  color: #f72210 !important;
+}
 
 :root {
   --color-red: #f42;
@@ -23,17 +42,171 @@ ul {
   list-style: none;
 }
 
-a {
-  text-decoration: none;
-  color: white;
-}
-
-a:hover {
-  color: #333;
-}
-
 /*
     ==============================================
                 ****** GLOBAL ******
     ==============================================
 */
+
+/* footer */
+
+@import url("https://cdn.jsdelivr.net/npm/bootstrap-icons@1.4.0/font/bootstrap-icons.css");
+@import url("https://fonts.googleapis.com/css2?family=Roboto+Condensed:wght@300;400;500;700&display=swap");
+
+h1 {
+  font-family: "Roboto Condensed", sans-serif;
+}
+
+html,
+body {
+  height: 100%;
+}
+
+.main {
+  min-height: 50%;
+}
+
+.sub {
+  border-radius: 10px;
+}
+
+::before {
+  box-sizing: border-box;
+}
+
+.first-bottom {
+  background-color: #f72210;
+  border-bottom: 2px solid #eee;
+  width: 66px !important;
+  position: absolute;
+  top: 88px;
+  right: 0;
+  content: "";
+  display: block;
+  border-left: 12px solid white;
+  border-top: 13px solid #f72210;
+}
+
+.content {
+  position: fixed;
+  bottom: 0;
+}
+
+svg {
+  vertical-align: middle;
+}
+
+@media screen and (max-width: 425px) {
+  .lg {
+    display: flex;
+    width: 100vw;
+    position: absolute;
+    top: 3px;
+    left: 200px;
+  }
+}
+
+@media screen and (max-width: 780px) {
+  .footer-top .bottom-logo {
+    margin: 0 0 0.5em 0.6em;
+  }
+
+  .svg {
+    height: 20px;
+    width: 130px;
+  }
+
+  .first {
+    display: flex !important;
+    justify-content: space-between !important;
+    flex-wrap: wrap;
+  }
+
+  .lg {
+    display: flex;
+    width: 30vw;
+    position: absolute;
+    top: 5px;
+    right: 0;
+  }
+
+  .lg1 {
+    display: flex;
+    width: 40vw;
+    position: absolute;
+    top: 5px;
+    right: 100px;
+  }
+}
+
+@media screen and (min-width: 1020px) {
+  .lg {
+    position: absolute;
+    top: 5%;
+    right: 5%;
+  }
+
+  .lg1 {
+    position: absolute;
+    top: 5%;
+    right: 20%;
+  }
+
+  .svg {
+    position: relative;
+    right: -65%;
+  }
+}
+
+.footer-top p {
+  font-size: 0.8rem;
+  color: #666;
+}
+
+.footer-top .social-icons a {
+  color: #666;
+  font-size: 0.933rem;
+}
+
+.footer-links {
+  border-top: 1px solid #d9d9d9;
+}
+
+@media screen and (max-width: 720px) {
+  .footer-links {
+    padding: 0 0 0 0.6em;
+  }
+}
+
+.footer-links .footer-links-edition,
+.footer-links .footer-links-mini {
+  padding: 0 0 0.6em 0;
+}
+
+.footer-links .footer-links-edition li,
+.footer-links .footer-links-mini li {
+  border-right: 1px solid #d9d9d9;
+  padding-right: 10px;
+  margin-right: 10px;
+}
+
+@media screen and (max-width: 720px) {
+  .footer-links .footer-links-edition li,
+  .footer-links .footer-links-mini li {
+    border: none;
+  }
+}
+
+.footer-links .footer-links-edition a,
+.footer-links .footer-links-mini a {
+  color: #666;
+  font-size: 0.8125rem;
+  white-space: nowrap;
+}
+
+.footer-links .footer-links-edition :hover,
+.footer-links .footer-links-mini :hover {
+  color: black;
+}
+
+/* footer */
