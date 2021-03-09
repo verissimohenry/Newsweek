@@ -40,6 +40,7 @@ a:hover {
 
 ul {
   list-style: none;
+  margin-top: 0;
 }
 
 /*
@@ -189,6 +190,25 @@ input {
   border-image: initial;
 }
 
+.bi-search::before {
+  content: "\f52a";
+}
+
+[class*=" bi-"]::before {
+  display: inline-block;
+  font-family: bootstrap-icons !important;
+  font-style: normal;
+  font-weight: normal !important;
+  font-variant: normal;
+  text-transform: none;
+  line-height: 1;
+  vertical-align: -.125em;
+  -webkit-font-smoothing: antialiased;
+}
+
+.ps-4 {
+  padding-left: 1.5rem!important;
+}
 
 .text-center {
   text-align: center!important;
@@ -297,6 +317,20 @@ body {
   border-top: 13px solid #f72210;
 }
 
+.bottom-nav {
+  font-family: "Roboto Condensed", sans-serif;
+  border-top-color: #f4f5f7;
+  padding: 0.815em 0 1px 0;
+  border-top-width: 2px;
+  border-top-style: solid;
+}
+
+.bottom-nav a {
+  text-decoration: none;
+  color: #6f6f6f;
+  font-weight: 500;
+}
+
 .content {
   position: fixed;
   bottom: 0;
@@ -332,7 +366,7 @@ body {
   display: inline-block;
 }
 
-li {
+.li {
   display: list-item;
   text-align: -webkit-match-parent;
 }
@@ -362,6 +396,10 @@ li {
   border-radius: 3rem;
 }
 
+.mb-1 {
+  margin-bottom: .25rem!important;
+}
+
 .mb-2 {
   margin-bottom: .5rem!important;
 }
@@ -382,6 +420,24 @@ li {
 
 .me-5 {
   margin-right: 3rem!important;
+}
+
+.ul {
+  display: block;
+  list-style-type: disc;
+  margin-block-start: 1em;
+  margin-block-end: 1em;
+  margin-inline-start: 0px;
+  margin-inline-end: 0px;
+  padding-inline-start: 40px;
+}
+
+.ps-0 {
+  padding-left: 0!important;
+}
+
+.strong {
+  font-weight: bolder;
 }
 
 /* header */
@@ -445,6 +501,26 @@ li {
   }
 }
 
+@media screen and (max-width: 560px) {
+  .top-nav .top-nav-action a {
+    text-decoration: none;
+    text-transform: uppercase;
+    font-size: 0.9rem;
+    font-weight: 400;
+  }
+}
+
+@media (min-width: 576px) {
+  .p-sm-2 {
+    padding: .5rem!important;
+  }
+
+  .px-sm-3 {
+    padding-right: 1rem!important;
+    padding-left: 1rem!important;
+  }
+}
+
 @media screen and (max-width: 720px) {
   .footer-links {
     padding: 0 0 0 0.6em;
@@ -505,6 +581,14 @@ li {
     height: 20px !important;
     width: 132px;
     padding-left: 1em;
+  }
+
+  .top-nav {
+    height: 50px;
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
   }
 }
 
