@@ -550,6 +550,48 @@ p {
   margin-bottom: 1rem;
 }
 
+.my-3 {
+  margin-top: 1rem!important;
+  margin-bottom: 1rem!important;
+}
+
+.card {
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  min-width: 0;
+  word-wrap: break-word;
+  background-color: #fff;
+  background-clip: border-box;
+  border: 1px solid rgba(0,0,0,.125);
+  border-radius: .25rem;
+}
+
+.text-primary {
+  color: #0d6efd!important;
+}
+
+a {
+  color: #0d6efd;
+  text-decoration: underline;
+}
+
+.m-0 {
+  margin: 0!important;
+}
+
+.position-relative {
+  position: relative!important;
+}
+
+figure {
+  display: block;
+  margin-block-start: 1em;
+  margin-block-end: 1em;
+  margin-inline-start: 40px;
+  margin-inline-end: 40px;
+}
+
 /* main */
 
 /* footer */
