@@ -226,6 +226,10 @@ input {
   align-items: flex-end!important;
 }
 
+.align-items-center {
+  align-items: center!important;
+}
+
 .justify-content-between {
   justify-content: space-between!important;
 }
@@ -494,6 +498,11 @@ body {
   padding-bottom: 0.3em;
 }
 
+.block-title a {
+  text-decoration: none;
+  color: inherit;
+}
+
 article .wrap {
   position: relative;
 }
@@ -738,6 +747,23 @@ p {
 
 .border-top {
   border-top: 1px solid #dee2e6!important;
+}
+
+.border-3 {
+  border-width: 3px!important;
+}
+
+.my-2 {
+  margin-top: .5rem!important;
+  margin-bottom: .5rem!important;
+}
+
+.debate .info {
+  font-family: "Roboto Condensed", sans-serif;
+  font-weight: 700;
+  font-size: 1.1rem;
+  line-height: 20px;
+  padding-right: 0.5em;
 }
 
 /* main */
