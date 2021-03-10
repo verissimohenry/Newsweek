@@ -167,6 +167,10 @@ ul {
   border: none;
 }
 
+.header-bottom .mid-nav :hover {
+  color: #f72210;
+}
+
 input {
   margin: 0;
   font-family: inherit;
@@ -349,6 +353,10 @@ body {
   text-decoration: none;
   color: #6f6f6f;
   font-weight: 500;
+}
+
+.bottom-nav a :hover {
+  color: #f72210;
 }
 
 .border-bottom {
@@ -1034,6 +1042,10 @@ label {
         "sign"
         "sponsored3";
   }
+   
+  .grid-container .top-story {
+    grid-area: topstory;
+  }
 
   .grid-container .featured-story {
     grid-area: featured;
@@ -1123,8 +1135,8 @@ label {
 @media screen and (max-width: 990px) {
   .top-nav .brand-logo > svg {
     transition: height 0.6s ease;
-    height: 20px !important;
-    width: 132px;
+    height: 55px !important;
+    width: 133px;
     padding-left: 1em;
   }
 
