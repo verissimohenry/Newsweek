@@ -103,6 +103,16 @@ ul {
   background-color: #fff !important;
 }
 
+h3 {
+  display: block;
+  font-size: 1.17em;
+  margin-block-start: 1em;
+  margin-block-end: 1em;
+  margin-inline-start: 0;
+  margin-inline-end: 0;
+  font-weight: bold;
+}
+
 .p-0 {
   padding: 0 !important;
 }
@@ -654,16 +664,6 @@ figure {
   margin: 10px 0 25px 0;
 }
 
-h3 {
-  display: block;
-  font-size: 1.17em;
-  margin-block-start: 1em;
-  margin-block-end: 1em;
-  margin-inline-start: 0;
-  margin-inline-end: 0;
-  font-weight: bold;
-}
-
 .col {
   flex: 1 0 0%;
 }
@@ -791,6 +791,12 @@ label {
   margin-right: 10px;
 }
 
+.form-text {
+  margin-top: 0.25rem;
+  font-size: 0.875em;
+  color: #6c757d;
+}
+
 .newsletter-signup .form-text {
   color: #555;
   font-size: 14px;
@@ -798,12 +804,6 @@ label {
   background-color: white;
   border: 1px solid #e0e1e1;
   text-indent: 9px;
-}
-
-.form-text {
-  margin-top: 0.25rem;
-  font-size: 0.875em;
-  color: #6c757d;
 }
 
 .newsletter-signup .free-signup .form-submit {
