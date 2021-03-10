@@ -173,13 +173,6 @@ input {
   line-height: inherit; 
 }
 
-.header-bottom .mid-nav .mid-nav-search input {
-  width: 60px;
-  height: 54px;
-  outline: none;
-  border: none;
-}
-
 .header-bottom .mid-nav :hover {
   color: #f72210;
 }
@@ -841,10 +834,10 @@ label {
   margin-right: 10px;
 }
 
-.newsletter-signup .free-signup input {
-  width: 100%;
-  height: 32px;
-  line-height: 32px;
+.form-text {
+  margin-top: 0.25rem;
+  font-size: 0.875em;
+  color: #6c757d;
 }
 
 .newsletter-signup .form-text {
@@ -854,12 +847,6 @@ label {
   background-color: white;
   border: 1px solid #e0e1e1;
   text-indent: 9px;
-}
-
-.form-text {
-  margin-top: 0.25rem;
-  font-size: 0.875em;
-  color: #6c757d;
 }
 
 .newsletter-signup .free-signup .form-submit {
@@ -879,6 +866,13 @@ label {
   width: 100%;
   height: 32px;
   line-height: 32px;
+}
+
+.header-bottom .mid-nav .mid-nav-search input {
+  width: 60px;
+  height: 54px;
+  outline: none;
+  border: none;
 }
 
 [type="submit"] {
