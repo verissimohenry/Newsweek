@@ -13,7 +13,8 @@
 
 a {
   text-decoration: none;
-  color: white;
+  color: #0d6efd;
+  text-decoration: underline;
 }
 
 a:hover {
@@ -30,6 +31,11 @@ a:hover {
   line-height: 20px;
 }
 
+.block-title a {
+  text-decoration: none;
+  color: inherit;
+}
+
 .bottom-nav a {
   text-decoration: none;
   color: #6f6f6f;
@@ -41,7 +47,7 @@ a:hover {
 }
 
 :not(svg) {
-  transform-origin: 0px 0px;
+  transform-origin: 0 0;
 }
 
 :root {
@@ -300,11 +306,6 @@ input[type="text"i] {
   font-weight: 300 !important;
 }
 
-.a {
-  color: #0d6efd;
-  text-decoration: underline;
-}
-
 .div {
   display: block;
 }
@@ -379,7 +380,6 @@ body {
 
 .li {
   display: list-item;
-  text-align: -webkit-match-parent;
 }
 
 .btn {
@@ -451,8 +451,8 @@ body {
   list-style-type: disc;
   margin-block-start: 1em;
   margin-block-end: 1em;
-  margin-inline-start: 0px;
-  margin-inline-end: 0px;
+  margin-inline-start: 0;
+  margin-inline-end: 0;
   padding-inline-start: 40px;
 }
 
@@ -497,11 +497,6 @@ body {
   color: rgba(3, 3, 3, 0.4);
   text-transform: uppercase;
   padding-bottom: 0.3em;
-}
-
-.block-title a {
-  text-decoration: none;
-  color: inherit;
 }
 
 article .wrap {
@@ -623,15 +618,6 @@ article p {
 
 .text-start {
   text-align: left !important;
-}
-
-a {
-  color: #0d6efd;
-  text-decoration: underline;
-}
-
-.m-0 {
-  margin: 0 !important;
 }
 
 .position-relative {
