@@ -356,7 +356,6 @@ body {
 }
 
 .content {
-  position: fixed;
   bottom: 0;
 }
 
@@ -734,7 +733,7 @@ p {
   flex: 1 0 0%;
 }
 
-.row > * {
+.row>* {
   flex-shrink: 0;
   width: 100%;
   max-width: 100%;
