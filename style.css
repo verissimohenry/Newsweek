@@ -1058,6 +1058,10 @@ label {
   .grid-container .turn {
     grid-area: turn;
   }
+
+  .grid-container .travel {
+    grid-area: travel;
+  }
 }
 
 @media (min-width: 768px) {
