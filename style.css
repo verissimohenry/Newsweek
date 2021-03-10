@@ -112,6 +112,10 @@ ul {
   margin-left: auto;
 }
 
+a:hover {
+  color: #0a58ca;
+}
+
 .page-header {
   position: relative;
   z-index: 10;
@@ -149,7 +153,6 @@ ul {
 input {
   -webkit-writing-mode: horizontal-tb !important;
   text-rendering: auto;
-  color: -internal-light-dark(black, white);
   letter-spacing: normal;
   word-spacing: normal;
   text-transform: none;
@@ -158,9 +161,7 @@ input {
   display: inline-block;
   text-align: start;
   appearance: auto;
-  background-color: -internal-light-dark(rgb(255, 255, 255), rgb(59, 59, 59));
   cursor: text;
-  margin: 0em;
   font: 400 13.3333px Arial;
   padding: 1px 2px;
   border-width: 2px;
@@ -170,7 +171,7 @@ input {
   margin: 0;
   font-family: inherit;
   font-size: inherit;
-  line-height: inherit; 
+  line-height: inherit;
 }
 
 .header-bottom .mid-nav .mid-nav-search input {
@@ -276,10 +277,6 @@ input[type="text"i] {
   font-weight: 300 !important;
 }
 
-a:hover {
-  color: #0a58ca;
-}
-
 .a {
   color: #0d6efd;
   text-decoration: underline;
@@ -296,10 +293,6 @@ h1 {
 html,
 body {
   height: 100%;
-}
-
-.main {
-  min-height: 50%;
 }
 
 .sub {
