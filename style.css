@@ -35,6 +35,11 @@ a:hover {
   line-height: 20px;
 }
 
+.card-body a {
+  text-decoration: none;
+  color: #111;
+}
+
 .block-title a {
   text-decoration: none;
   color: inherit;
@@ -526,6 +531,11 @@ article .wrap-small .category {
   color: #0d6efd !important;
 }
 
+img,
+svg {
+  vertical-align: middle;
+}
+
 article .wrap img {
   position: relative;
   width: 100%;
@@ -555,11 +565,6 @@ article .wrap-small .image-container img {
 .img-fluid {
   width: 100%;
   height: auto;
-}
-
-img,
-svg {
-  vertical-align: middle;
 }
 
 article h3 {
@@ -653,11 +658,7 @@ figure {
 .card-body {
   flex: 1 1 auto;
   padding: 1rem 1rem;
-}
-
-.card-body {
   margin: 10px 0 25px 0;
-  padding: 0;
 }
 
 h3 {
@@ -668,11 +669,6 @@ h3 {
   margin-inline-start: 0;
   margin-inline-end: 0;
   font-weight: bold;
-}
-
-.card-body a {
-  text-decoration: none;
-  color: #111;
 }
 
 .lh-sm {
