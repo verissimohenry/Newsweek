@@ -547,6 +547,12 @@ article .wrap-small .image-container {
   max-height: 600px;
 }
 
+.stories figure img {
+  object-fit: cover;
+  width: 100%;
+  height: 100%;
+}
+
 article .wrap-small .image-container img {
   width: 100%;
   height: 100%;
@@ -620,31 +626,18 @@ article p {
   text-align: left !important;
 }
 
-.position-relative {
-  position: relative !important;
-}
-
 figure {
   display: block;
   margin-block-start: 1em;
   margin-block-end: 1em;
   margin-inline-start: 40px;
   margin-inline-end: 40px;
+  margin: 0 0 1rem;
 }
 
 .stories figure {
   width: 100px;
   height: 100px;
-}
-
-.stories figure img {
-  object-fit: cover;
-  width: 100%;
-  height: 100%;
-}
-
-figure {
-  margin: 0 0 1rem;
 }
 
 .flex-shrink-0 {
@@ -669,10 +662,6 @@ h3 {
   margin-inline-start: 0;
   margin-inline-end: 0;
   font-weight: bold;
-}
-
-.lh-sm {
-  line-height: 1.25 !important;
 }
 
 .col {
