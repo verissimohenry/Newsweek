@@ -174,11 +174,9 @@ input {
   text-align: start;
   appearance: auto;
   cursor: text;
-  font: 400 13.3333px Arial;
   padding: 1px 2px;
   border-width: 2px;
   border-style: inset;
-  border-color: -internal-light-dark(rgb(118, 118, 118), rgb(133, 133, 133));
   border-image: initial;
   margin: 0;
   font-size: inherit;
@@ -212,7 +210,6 @@ input[type="text"i] {
 
 [class*=" bi-"]::before {
   display: inline-block;
-  font-family: bootstrap-icons !important;
   font-style: normal;
   font-weight: normal !important;
   font-variant: normal;
