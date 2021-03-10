@@ -1062,6 +1062,14 @@ label {
   .grid-container .travel {
     grid-area: travel;
   }
+
+  .grid-container .sponsored2 {
+    grid-area: sponsored2;
+  }
+ 
+ .grid-container .sign {
+   grid-area: sign;
+ }
 }
 
 @media (min-width: 768px) {
