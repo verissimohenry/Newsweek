@@ -1046,6 +1046,14 @@ label {
   .grid-container .sponsored1 {
     grid-area: sponsored1;
   }
+
+  .grid-container .more {
+    grid-area: more;
+  }
+
+  .grid-container .latest {
+    grid-area: latest;
+  }
 }
 
 @media (min-width: 768px) {
