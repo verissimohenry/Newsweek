@@ -1016,6 +1016,38 @@ label {
   }
 }
 
+@media screen and (max-width: 767px) {
+  .grid-container {
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-template-rows: auto;
+    grid-template-areas:
+        "topstory"
+        "featured"
+        "debate"
+        "sponsored1"
+        "more"
+        "latest"
+        "turn"
+        "travel"
+        "sponsored2"
+        "sign"
+        "sponsored3";
+  }
+
+  .grid-container .featured-story {
+    grid-area: featured;
+  }
+
+  .grid-container .the-debate {
+    grid-area: debate;
+  }
+
+  .grid-container .sponsored1 {
+    grid-area: sponsored1;
+  }
+}
+
 @media (min-width: 768px) {
   .d-md-block {
     display: block!important;
