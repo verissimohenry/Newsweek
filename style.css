@@ -16,7 +16,23 @@ a {
 }
 
 a:hover {
-  color: #333;
+  color: #0a58ca;
+}
+
+.info a {
+  display: block;
+  font-family: "Roboto Condensed", sans-serif;
+  text-decoration: none;
+  font-weight: 700;
+  color: #1111117c;
+  font-size: 1rem;
+  line-height: 20px;
+}
+
+.bottom-nav a {
+  text-decoration: none;
+  color: #6f6f6f;
+  font-weight: 500;
 }
 
 .last > a:hover {
@@ -112,10 +128,6 @@ ul {
   margin-left: auto;
 }
 
-a:hover {
-  color: #0a58ca;
-}
-
 .page-header {
   position: relative;
   z-index: 10;
@@ -169,7 +181,6 @@ input {
   border-color: -internal-light-dark(rgb(118, 118, 118), rgb(133, 133, 133));
   border-image: initial;
   margin: 0;
-  font-family: inherit;
   font-size: inherit;
   line-height: inherit;
 }
@@ -252,16 +263,6 @@ input[type="text"i] {
   font-weight: bolder !important;
 }
 
-.info a {
-  display: block;
-  font-family: "Roboto Condensed", sans-serif;
-  text-decoration: none;
-  font-weight: 700;
-  color: #1111117c;
-  font-size: 1rem;
-  line-height: 20px;
-}
-
 .top-nav {
   height: 92px;
   background-color: #f72210;
@@ -338,12 +339,6 @@ body {
   padding: 0.815em 0 1px 0;
   border-top-width: 2px;
   border-top-style: solid;
-}
-
-.bottom-nav a {
-  text-decoration: none;
-  color: #6f6f6f;
-  font-weight: 500;
 }
 
 .bottom-nav a :hover {
