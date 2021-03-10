@@ -4,6 +4,7 @@
 
 .svg {
   fill: aliceblue;
+  vertical-align: middle;
 }
 
 .first {
@@ -37,6 +38,10 @@ a:hover {
 
 .last > a:hover {
   color: #f72210 !important;
+}
+
+:not(svg) {
+  transform-origin: 0px 0px;
 }
 
 :root {
@@ -196,6 +201,10 @@ input {
   border: none;
 }
 
+.bottom-nav a :hover {
+  color: #f72210;
+}
+
 .header-bottom .mid-nav :hover {
   color: #f72210;
 }
@@ -338,10 +347,6 @@ body {
   border-top-style: solid;
 }
 
-.bottom-nav a :hover {
-  color: #f72210;
-}
-
 .border-bottom {
   border-bottom: 1px solid #dee2e6 !important;
 }
@@ -350,16 +355,8 @@ body {
   bottom: 0;
 }
 
-.svg {
-  vertical-align: middle;
-}
-
 .svg:not(:root) {
   overflow: hidden;
-}
-
-:not(svg) {
-  transform-origin: 0px 0px;
 }
 
 .top-nav .top-nav-action ul {
@@ -402,8 +399,7 @@ body {
   padding: 0.375rem 0.75rem;
   font-size: 1rem;
   border-radius: 0.25rem;
-  transition: color 0.15s ease-in-out, background-color 0.15s ease-in-out,
-    border-color 0.15s ease-in-out, box-shadow 0.15s ease-in-out;
+  transition: color 0.15s ease-in-out, background-color 0.15s ease-in-out, border-color 0.15s ease-in-out, box-shadow 0.15s ease-in-out;
 }
 
 .top-nav .top-nav-action .subscribe {
