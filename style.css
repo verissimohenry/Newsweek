@@ -3,6 +3,7 @@
   ============================================== */
 
 .svg {
+
   fill: aliceblue;
   vertical-align: middle;
 }
@@ -62,6 +63,10 @@ a:hover {
 :root {
   --color-red: #f42;
   --bg-color-red: #f42;
+}
+
+.header {
+  width: 100%;
 }
 
 *,
@@ -340,7 +345,6 @@ body {
 
 .sub {
   border-radius: 10px;
-}
 
 ::before {
   box-sizing: border-box;
