@@ -1,17 +1,137 @@
 <!DOCTYPE html>
 <html lang="en">
-
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <link rel='icon' href="#">
+  <!-- CSS only -->
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-BmbxuPwQa2lc/FVzBcNJ7UAyJxM6wuqIj61tLrc4wSX0szH/Ev+nYRRuWlolflfl" crossorigin="anonymous">
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.14.0/css/all.min.css">
   <link rel="stylesheet" href="style.css">
-  <title>Document</title>
+  <title>NewsWeek Clone</title>
 </head>
-
 <body>
-  <h1>hello world</h1>
+  <!--HEADER-->
+  <nav class="header">
+    <section class="container-fluid first">
+      <div class="row no-gutters">
+        <div class="col-lg-4 pt-4 d-none d-md-block text-white one">Wed, Jan 20, 2021</div>
+        <div class="col-lg-4 col-sm-6 col pb-1 text-white">
+          <a href="#">
+            <svg version="1.1" width="290" height="60" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px" viewBox="0 0 396 60" class="svg p-0" style="enable-background:new 0 0 395.6 60;" xml:space="preserve">
+              <g><path class="st0" d="M58.7,10.8h-5.6v48.3H42.8l-25.1-33v22.1h5.6v10.8H0V48.3h5.6V10.8H0V0h17.6L41,30.7V10.8h-5.6V0h23.2	L58.7,10.8L58.7,10.8z M95.8,38c0,0.9,0,1.8-0.1,2.7H70.3c-0.7,8.2,2.4,10.6,7.1,10.6c3.9,0,6.9-2.6,6.9-6.6h11	c-0.3,7.2-4,15.4-18.5,15.4c-14.5,0-21.3-10.5-21.3-22.1c0-10.5,7-21.6,21-21.6C89.9,16.3,95.8,25.6,95.8,38 M159,27.3h-3.7	l-9.4,31.8h-12.5l-5.9-17.4l-5.3,17.4h-12.8L98.8,27.4h-3.7V16.6h22.1v10.7h-5.6l5.8,16.9l7.6-27.6h6.8l9.3,27.6l5-16.9h-5.6V16.6	H159L159,27.3L159,27.3z M174.5,27.8c0,1.5,1.2,2.5,5.4,3.9l6,2c5.5,1.8,12.1,5.9,12.1,13.4c0,8.8-6.6,13-14.7,13	c-6.5,0-11.5-3.2-12.9-4.6V59h-10.8V44.4h10.6c0.3,4.8,4.6,7.3,8.5,7.3c3.2,0,4.7-1.4,4.7-3c0-2-1.2-3.1-6.5-4.8l-5.3-1.8	c-5.4-1.7-11.4-5.7-11.4-12.8c0-8.7,7.7-13.1,14.3-13.1c6.8,0,10.1,1.9,11.8,3.8l0.1-3.3H197v13.3h-11.2c-0.2-3.6-3.7-5.2-7.2-5.2	C175.8,24.8,174.5,26.1,174.5,27.8 M262.8,27.3h-3.7l-9.4,31.8h-12.5l-5.9-17.4L226,59.1h-12.8l-10.6-31.7h-3.7V16.6h22.1v10.7	h-5.6l5.8,16.9l7.6-27.6h6.8l9.3,27.7l5-16.9h-5.6V16.6h18.5V27.3z M302,37.9c0,0.9,0,1.8-0.1,2.7h-25.4	c-0.7,8.2,2.4,10.6,7.1,10.6c3.9,0,6.9-2.6,6.9-6.6h11c-0.3,7.2-4,15.4-18.5,15.4c-14.5,0-21.3-10.5-21.3-22.1	c0-10.5,7-21.6,21-21.6C296.1,16.2,302,25.5,302,37.9 M343.9,37.8c0,0.9,0,1.8-0.1,2.7h-25.4c-0.7,8.2,2.4,10.6,7.1,10.6	c3.9,0,6.9-2.6,6.9-6.6h11c-0.3,7.2-4,15.4-18.5,15.4c-14.5,0-21.3-10.5-21.3-22.1c0-10.5,7-21.6,21-21.6	C338,16.1,343.9,25.4,343.9,37.8 M389.9,59h-12.8l-13.3-17.3l-4.3,3.2v3.4h3.8V59h-19.6V48.3h3.7V10.6h-5.6V0h17.8v33.9l8.9-6.5	h-5.6V16.6h23.9v10.8h-3.7l-9.3,7l10.7,13.9h5.6L389.9,59L389.9,59z M395.6,56.6c0,0.5-0.1,0.9-0.4,1.2c-0.2,0.4-0.5,0.7-0.9,0.9	c-0.4,0.2-0.8,0.4-1.3,0.4c-0.5,0-0.9-0.1-1.2-0.4c-0.4-0.2-0.7-0.5-0.9-0.9c-0.2-0.4-0.4-0.8-0.4-1.2c0-0.5,0.1-0.9,0.4-1.2	c0.2-0.4,0.5-0.7,0.9-0.9c0.4-0.2,0.8-0.4,1.2-0.4c0.5,0,0.9,0.1,1.3,0.4c0.4,0.2,0.7,0.5,0.9,0.9	C395.5,55.8,395.6,56.2,395.6,56.6 M394.6,58c0.4-0.4,0.6-0.9,0.6-1.4c0-0.6-0.2-1-0.6-1.4s-0.9-0.6-1.4-0.6s-1,0.2-1.4,0.6	c-0.4,0.4-0.6,0.9-0.6,1.4c0,0.6,0.2,1,0.6,1.4c0.4,0.4,0.9,0.6,1.4,0.6S394.2,58.4,394.6,58 M393.6,56.8c0.1,0.1,0.2,0.1,0.2,0.1	c0.1,0.1,0.2,0.2,0.2,0.3c0,0,0.2,0.3,0.4,0.8h-0.8c-0.3-0.5-0.4-0.8-0.5-0.9c-0.1-0.1-0.2-0.2-0.3-0.2c0,0-0.1,0-0.1,0v1.1h-0.6	v-2.6h1.2c0.4,0,0.6,0.1,0.7,0.2c0.2,0.2,0.2,0.3,0.2,0.6c0,0.2-0.1,0.4-0.2,0.5C393.9,56.6,393.8,56.7,393.6,56.8 M393.5,56.3	c0.1-0.1,0.1-0.2,0.1-0.3s-0.1-0.2-0.1-0.3c-0.1-0.1-0.2-0.1-0.4-0.1h-0.3v0.7h0.3C393.3,56.4,393.4,56.4,393.5,56.3 M318.4,33.5	h13.9c0-6-3.9-8.4-6.8-8.4C322.1,25.2,318.6,27.9,318.4,33.5 M276.5,33.6h13.9c0-6-3.9-8.4-6.8-8.4C280.3,25.2,276.8,28,276.5,33.6 M70.3,33.7h13.9c0-6-3.9-8.4-6.8-8.4C74.1,25.3,70.6,28.1,70.3,33.7"></path></g>
+            </svg>
+          </a>
+        </div>
+        <div class="col-lg-4 col-sm-6 col two">
+          <h5 class="d-flex flex-row justify-content-end pt-4">
+            <i class="fa fa-user text-light d-md-none d-sm-none mx-2" aria-hidden="true"></i>
+            <span class="d-none d-lg-block d-md-block d-sm-block log mx-2"><a href="" class="text-white text-decoration-none p-lg-3">LOGIN</a></span>
+            <a href="" class="text-decoration-none"><span class="bg-warning text-dark sub p-1">SUBSCRIBE></span></a>
+            <i class="fas fa-bars d-lg-none text-white mx-2"></i>
+          </h5>
+        </div>
+      </div>
+    </section>
+    <div class="first-bottom d-none d-lg-block"></div>
+    <div class="container-fluid d-none d-lg-block">
+      <h6 class="row last pt-1">
+        <a href="#" class="col-lg-1 text-decoration-none lastN p-0 text-dark  border border-top-0 border-bottom-0 border-left-0">U.S</a>
+        <a href="#" class="col-lg-1 text-decoration-none lastN p-0 text-dark  border border-top-0 border-bottom-0 border-left-0">World</a>
+        <a href="#" class="col-lg-1 text-decoration-none lastN p-0 text-dark  border border-top-0 border-bottom-0 border-left-0">Business</a>
+        <a href="#" class="col-lg-1 text-decoration-none lastN p-0 text-dark  border border-top-0 border-bottom-0 border-left-0">Tech & Science</a>
+        <a href="#" class="col-lg-1 text-decoration-none lastN p-0 text-dark  border border-top-0 border-bottom-0 border-left-0">Culture</a>
+        <a href="#" class="col-lg-1 text-decoration-none lastN p-0 text-dark  border border-top-0 border-bottom-0 border-left-0">Newsgeek</a>
+        <a href="#" class="col-lg-1 text-decoration-none lastN p-0 text-dark  border border-top-0 border-bottom-0 border-left-0">Sports</a>
+        <a href="#" class="col-lg-1 text-decoration-none lastN p-0 text-dark  border border-top-0 border-bottom-0 border-left-0">Healthy</a>
+        <a href="#" class="col-lg-1 text-decoration-none lastN p-0 text-dark  border border-top-0 border-bottom-0 border-left-0">The Debate</a>
+        <a href="#" class="col-lg-1 text-decoration-none lastN p-0 text-dark  border border-top-0 border-bottom-0 border-left-0">Experts</a>
+        <a href="#" class="col-lg-2 text-decoration-none lastN p-0 text-dark">Vantage&nbsp; &nbsp; &nbsp; &nbsp; &nbsp;search &nbsp;<i class="fa fa-search"></i></a>
+      </h6>
+    </div> 
+    <div class="container-fluid border d-none d-lg-block">
+      <h6 class="row d-flex flex-lg-row last pt-1">
+        <a href="#" class="col-lg-1 text-decoration-none p-0 lastN1 text-dark font-weight-bold">TRENDING</a>
+        <a href="#" class="col-lg-1 text-decoration-none p-0 lastN1 text-dark font-weight-bold">JOE BIDEN</a>
+        <a href="#" class="col-lg-1 text-decoration-none p-0 lastN1 text-dark font-weight-bold">DONALD TRUMP</a>
+        <a href="#" class="col-lg-1 text-decoration-none p-0 lastN1 text-dark font-weight-bold">INAUGURATION</a>
+        <a href="#" class="col-lg-1 text-decoration-none p-0 lastN1 text-dark font-weight-bold">CORONAVIRUS</a>
+        <a href="#" class="col-lg-2 text-decoration-none p-0 lastN1 text-dark font-weight-bold">STIMULUS PACKAGE</a>
+        <a href="#" class="col-lg-1 text-decoration-none p-0 lastN1 text-dark font-weight-bold">VACCINE</a>
+        <a href="#" class="col-lg-1 text-decoration-none p-0 lastN1 text-dark font-weight-bold">CAPITOL RIOTS</a>
+      </h6>
+    </div>
+</nav>
+
+
+ <!-- footer -->
+  <div class="content bg-white pt-3">
+    <footer class="p-lg-3 p-sm-2">
+      <div class="footer-top d-flex flex-wrap justify-content-between align-items-end mt-5">
+        <div class="d-flex align-items-end flex-wrap mb-3">
+          <a href="#">
+            <div class="bottom-logo">
+              <svg version="1.1" width="236" height="36" xmlns="http://www.w3.org/2000/svg"
+                xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px" viewBox="0 0 396 60"
+                style="enable-background:new 0 0 395.6 60;fill: #f72210" xml:space="preserve">
+                <g>
+                  <path class="st0"
+                    d="M58.7,10.8h-5.6v48.3H42.8l-25.1-33v22.1h5.6v10.8H0V48.3h5.6V10.8H0V0h17.6L41,30.7V10.8h-5.6V0h23.2	L58.7,10.8L58.7,10.8z M95.8,38c0,0.9,0,1.8-0.1,2.7H70.3c-0.7,8.2,2.4,10.6,7.1,10.6c3.9,0,6.9-2.6,6.9-6.6h11	c-0.3,7.2-4,15.4-18.5,15.4c-14.5,0-21.3-10.5-21.3-22.1c0-10.5,7-21.6,21-21.6C89.9,16.3,95.8,25.6,95.8,38 M159,27.3h-3.7	l-9.4,31.8h-12.5l-5.9-17.4l-5.3,17.4h-12.8L98.8,27.4h-3.7V16.6h22.1v10.7h-5.6l5.8,16.9l7.6-27.6h6.8l9.3,27.6l5-16.9h-5.6V16.6	H159L159,27.3L159,27.3z M174.5,27.8c0,1.5,1.2,2.5,5.4,3.9l6,2c5.5,1.8,12.1,5.9,12.1,13.4c0,8.8-6.6,13-14.7,13	c-6.5,0-11.5-3.2-12.9-4.6V59h-10.8V44.4h10.6c0.3,4.8,4.6,7.3,8.5,7.3c3.2,0,4.7-1.4,4.7-3c0-2-1.2-3.1-6.5-4.8l-5.3-1.8	c-5.4-1.7-11.4-5.7-11.4-12.8c0-8.7,7.7-13.1,14.3-13.1c6.8,0,10.1,1.9,11.8,3.8l0.1-3.3H197v13.3h-11.2c-0.2-3.6-3.7-5.2-7.2-5.2	C175.8,24.8,174.5,26.1,174.5,27.8 M262.8,27.3h-3.7l-9.4,31.8h-12.5l-5.9-17.4L226,59.1h-12.8l-10.6-31.7h-3.7V16.6h22.1v10.7	h-5.6l5.8,16.9l7.6-27.6h6.8l9.3,27.7l5-16.9h-5.6V16.6h18.5V27.3z M302,37.9c0,0.9,0,1.8-0.1,2.7h-25.4	c-0.7,8.2,2.4,10.6,7.1,10.6c3.9,0,6.9-2.6,6.9-6.6h11c-0.3,7.2-4,15.4-18.5,15.4c-14.5,0-21.3-10.5-21.3-22.1	c0-10.5,7-21.6,21-21.6C296.1,16.2,302,25.5,302,37.9 M343.9,37.8c0,0.9,0,1.8-0.1,2.7h-25.4c-0.7,8.2,2.4,10.6,7.1,10.6	c3.9,0,6.9-2.6,6.9-6.6h11c-0.3,7.2-4,15.4-18.5,15.4c-14.5,0-21.3-10.5-21.3-22.1c0-10.5,7-21.6,21-21.6	C338,16.1,343.9,25.4,343.9,37.8 M389.9,59h-12.8l-13.3-17.3l-4.3,3.2v3.4h3.8V59h-19.6V48.3h3.7V10.6h-5.6V0h17.8v33.9l8.9-6.5	h-5.6V16.6h23.9v10.8h-3.7l-9.3,7l10.7,13.9h5.6L389.9,59L389.9,59z M395.6,56.6c0,0.5-0.1,0.9-0.4,1.2c-0.2,0.4-0.5,0.7-0.9,0.9	c-0.4,0.2-0.8,0.4-1.3,0.4c-0.5,0-0.9-0.1-1.2-0.4c-0.4-0.2-0.7-0.5-0.9-0.9c-0.2-0.4-0.4-0.8-0.4-1.2c0-0.5,0.1-0.9,0.4-1.2	c0.2-0.4,0.5-0.7,0.9-0.9c0.4-0.2,0.8-0.4,1.2-0.4c0.5,0,0.9,0.1,1.3,0.4c0.4,0.2,0.7,0.5,0.9,0.9	C395.5,55.8,395.6,56.2,395.6,56.6 M394.6,58c0.4-0.4,0.6-0.9,0.6-1.4c0-0.6-0.2-1-0.6-1.4s-0.9-0.6-1.4-0.6s-1,0.2-1.4,0.6	c-0.4,0.4-0.6,0.9-0.6,1.4c0,0.6,0.2,1,0.6,1.4c0.4,0.4,0.9,0.6,1.4,0.6S394.2,58.4,394.6,58 M393.6,56.8c0.1,0.1,0.2,0.1,0.2,0.1	c0.1,0.1,0.2,0.2,0.2,0.3c0,0,0.2,0.3,0.4,0.8h-0.8c-0.3-0.5-0.4-0.8-0.5-0.9c-0.1-0.1-0.2-0.2-0.3-0.2c0,0-0.1,0-0.1,0v1.1h-0.6	v-2.6h1.2c0.4,0,0.6,0.1,0.7,0.2c0.2,0.2,0.2,0.3,0.2,0.6c0,0.2-0.1,0.4-0.2,0.5C393.9,56.6,393.8,56.7,393.6,56.8 M393.5,56.3	c0.1-0.1,0.1-0.2,0.1-0.3s-0.1-0.2-0.1-0.3c-0.1-0.1-0.2-0.1-0.4-0.1h-0.3v0.7h0.3C393.3,56.4,393.4,56.4,393.5,56.3 M318.4,33.5	h13.9c0-6-3.9-8.4-6.8-8.4C322.1,25.2,318.6,27.9,318.4,33.5 M276.5,33.6h13.9c0-6-3.9-8.4-6.8-8.4C280.3,25.2,276.8,28,276.5,33.6 M70.3,33.7h13.9c0-6-3.9-8.4-6.8-8.4C74.1,25.3,70.6,28.1,70.3,33.7">
+                  </path>
+                </g>
+              </svg>
+            </div>
+          </a>
+          <p class="d-inline-block m-0 ps-3">&copy; 2021 NEWSWEEK DIGITAL LLC</p>
+        </div>
+        <div>
+          <ul class="social-icons d-flex list-unstyled mb-0">
+            <li class="ps-3"><a href="#"><i class="fab fa-facebook-square"></i></a></li>
+            <li class="ps-3"><a href="#"><i class="fab fa-twitter"></i></a></li>
+            <li class="ps-3"><a href="#"><i class="fab fa-instagram-square"></i></a></li>
+            <li class="ps-3"><a href="#"><img src="assest/tumblr-brands.svg" alt="tumblr" height=15 class="mb-1 text-red"></a></li>
+            <li class="ps-3"><a href="#"><i class="fab fa-linkedin"></i></a></li>
+          </ul>
+        </div>
+      </div>
+
+  <div class="footer-links flex-wrap d-flex pt-1">
+    <div class="footer-links-edition d-flex">
+      <div class="d-flex list-unstyled flex-wrap mb-1">
+        <p><strong>Editions:</strong></p>
+        <ul class="d-flex flex-row">
+          <li><a href="#" class="text-decoration-none"> U.S Edition</a></li>
+          <li><a href="#" class="text-decoration-none"> 日本</a></li>
+        </ul>
+        <ul class="d-flex flex-row">
+          <li><a href="#" class="text-decoration-none"> Pakistan</a></li>
+          <li><a href="#" class="text-decoration-none"> Polska</a></li>
+          <li><a href="#" class="text-decoration-none"> Romania</a></li>
+        </ul>
+      </div>
+    </div>
+    <div class="footer-links-mini">
+      <ul class="d-flex list-unstyled flex-wrap">
+        <li><a href="#" class="text-decoration-none"> About Us</a></li>
+        <li><a href="#" class="text-decoration-none"> Corrections</a></li>
+        <li><a href="#" class="text-decoration-none"> Contact Us</a></li>
+        <li><a href="#" class="text-decoration-none"> Editorial Guidelines</a></li>
+        <li><a href="#" class="text-decoration-none"> Advertise</a></li>
+        <li><a href="#" class="text-decoration-none"> Copyright</a></li>
+        <li><a href="#" class="text-decoration-none"> Terms &amp; Conditions</a></li>
+        <li><a href="#" class="text-decoration-none"> Privacy Policy</a></li>
+        <li><a href="#" class="text-decoration-none"> Cookie Policy</a></li>
+        <li><a href="#" class="text-decoration-none"> Terms of Sale</a></li>
+        <li><a href="#" class="text-decoration-none"> Archive</a></li>
+        <li><a href="#" class="text-decoration-none"> Announcements</a></li>
+      </ul>
+    </div>
+  </div>
+</footer>
+</div>
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta2/dist/js/bootstrap.bundle.min.js"
+integrity="sha384-b5kHyXgcpbZJO/tY9Ul7kGkf1S0CWuKcCD38l8YkeH8z8QjE0GmW1gYU5S9FOnJ0" crossorigin="anonymous">
+</script>
 </body>
 
 </html>
