@@ -1,9 +1,8 @@
 /* ==============================================
-                ****** RESET ******
-  ============================================== */
+****** RESET ******
+============================================== */
 
 .svg {
-
   fill: aliceblue;
   vertical-align: middle;
 }
@@ -65,10 +64,6 @@ a:hover {
   --bg-color-red: #f42;
 }
 
-.header {
-  width: 100%;
-}
-
 *,
 *::before,
 *::after {
@@ -85,10 +80,10 @@ ul {
 }
 
 /*
-    ==============================================
-                ****** GLOBAL ******
-    ==============================================
-*/
+  ==============================================
+  ****** GLOBAL ******
+  ==============================================
+  */
 
 .body {
   margin: 0;
@@ -228,11 +223,8 @@ input {
 }
 
 .bottom-nav a :hover,
-
 .header-bottom .mid-nav :hover {
-
   color: #f72210;
-
 }
 
 input[type="text"i] {
@@ -341,6 +333,7 @@ body {
 
 .sub {
   border-radius: 10px;
+}
 
 ::before {
   box-sizing: border-box;
@@ -418,7 +411,8 @@ body {
   padding: 0.375rem 0.75rem;
   font-size: 1rem;
   border-radius: 0.25rem;
-  transition: color 0.15s ease-in-out, background-color 0.15s ease-in-out, border-color 0.15s ease-in-out, box-shadow 0.15s ease-in-out;
+  transition: color 0.15s ease-in-out, background-color 0.15s ease-in-out,
+    border-color 0.15s ease-in-out, box-shadow 0.15s ease-in-out;
 }
 
 .top-nav .top-nav-action .subscribe {
