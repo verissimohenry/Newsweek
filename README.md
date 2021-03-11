@@ -55,7 +55,7 @@ Install and run a live server plugin on you IDE/Text editor and run it from the 
 
 ## Show your support
 
-Give a ⭐️ if you like this project!
+Give a ⭐️ if you like this project.!
 
 ## 📝 License
 
