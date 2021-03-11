@@ -3,9 +3,12 @@
 > In the first milestone, we were asked to  prepare the tools to develop this website and will create 2 small sections(ie the Header and footer).
 > We were asked to  Create these sections of the website for the 3 screen sizes.
 
-## Project Screenshot
-![sceenshotY](https://user-images.githubusercontent.com/69446259/110489143-d09a9080-80f7-11eb-8495-9a8d9da4f8ac.PNG)
+![screenshot](images/sce.png)
 
+![screenshot](images/sce1.png)
+
+
+![screenshot](images/sce2.png)
 
 Additional description about the project and its features.
 
@@ -53,7 +56,7 @@ Install and run a live server plugin on you IDE/Text editor and run it from the 
 
 ## Show your support
 
-Give a ⭐️ if you like this project!
+Give a ⭐️ if you like this project.!
 
 ## 📝 License
 
