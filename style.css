@@ -226,12 +226,12 @@ input {
   border: none;
 }
 
-.bottom-nav a :hover {
-  color: #f72210;
-}
+.bottom-nav a :hover,
 
 .header-bottom .mid-nav :hover {
+
   color: #f72210;
+
 }
 
 input[type="text"i] {
@@ -514,6 +514,7 @@ body {
   color: rgba(3, 3, 3, 0.4);
   text-transform: uppercase;
   padding-bottom: 0.3em;
+  padding-top: 11px;
 }
 
 article .wrap {
