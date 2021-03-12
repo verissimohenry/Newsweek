@@ -914,11 +914,6 @@ article .wrap .category a {
     top: 3px;
     left: 200px;
   }
-
-  .lastim1 {
-    width: 350px !important;
-    height: 200px !important;
-  }
 }
 
 @media screen and (max-width: 560px) {
@@ -1128,14 +1123,10 @@ article .wrap .category a {
   }
 }
 
-.lastinp {
-  width: auto;
-}
-
 .lsign {
   display: flex;
   align-items: center;
-  font: bold 15px "Roboto Condensed", sans-serif;
+  font: bold 13px "Roboto Condensed", sans-serif;
   margin-bottom: 15px;
   text-transform: uppercase;
 }
