@@ -21,7 +21,7 @@ Additional description about the project and its features.
 
 ## Live Demo
 
-[Live Demo Link](https://verissimohenry.github.io/Newsweek/1)
+[Live Demo Link](https://verissimohenry.github.io/Newsweek/)
 
 ## To get a local copy up and running follow these simple example steps.
 
