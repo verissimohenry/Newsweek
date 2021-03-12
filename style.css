@@ -7,10 +7,6 @@
   vertical-align: middle;
 }
 
-.first {
-  background-color: #f72210;
-}
-
 article h3 a {
   text-decoration: none;
   color: #111;
@@ -1030,28 +1026,6 @@ article .wrap .category a {
   .svg {
     height: 20px;
     width: 130px;
-  }
-
-  .first {
-    display: flex !important;
-    justify-content: space-between !important;
-    flex-wrap: wrap;
-  }
-
-  .lg {
-    display: flex;
-    width: 30vw;
-    position: absolute;
-    top: 5px;
-    right: 0;
-  }
-
-  .lg1 {
-    display: flex;
-    width: 40vw;
-    position: absolute;
-    top: 5px;
-    right: 100px;
   }
 }
 
