@@ -229,7 +229,7 @@ input[type="text"i] {
 [class*=" bi-"]::before {
   display: inline-block;
   font-style: normal;
-  font-weight: normal !important;
+  font-weight: normal;
   font-variant: normal;
   text-transform: none;
   line-height: 1;
@@ -467,8 +467,8 @@ body {
   font-weight: bolder;
 }
 
-.mt-3 {
-  margin-top: 1rem !important;
+.mt-3t {
+  margin-top: 1rem;
 }
 
 .gx-4 {
@@ -520,8 +520,8 @@ article .wrap-small .category {
   z-index: 1;
 }
 
-.text-primary {
-  color: #0d6efd !important;
+.text-primaryt {
+  color: #0d6efd;
 }
 
 .image,
@@ -553,7 +553,7 @@ article .wrap-small .image-container img {
 }
 
 .position-relative {
-  position: relative !important;
+  position: relative;
 }
 
 .figure-img {
@@ -581,7 +581,7 @@ article h3 {
 }
 
 .lh-sm {
-  line-height: 1.25 !important;
+  line-height: 1.25;
 }
 
 p {
@@ -598,9 +598,9 @@ article p {
   font-size: 0.9rem;
 }
 
-.my-3 {
-  margin-top: 1rem !important;
-  margin-bottom: 1rem !important;
+.my-3t {
+  margin-top: 1rem;
+  margin-bottom: 1rem;
 }
 
 .card {
@@ -616,7 +616,7 @@ article p {
 }
 
 .text-start {
-  text-align: left !important;
+  text-align: left;
 }
 
 figure {
@@ -634,11 +634,11 @@ figure {
 }
 
 .flex-shrink-0 {
-  flex-shrink: 0 !important;
+  flex-shrink: 0;
 }
 
 .pb-2 {
-  padding-bottom: 0.5rem !important;
+  padding-bottom: 0.5rem;
 }
 
 .card-body {
@@ -665,21 +665,21 @@ figure {
   width: 100%;
 }
 
-.border-1 {
-  border-width: 1px !important;
+.border-1o {
+  border-width: 1px;
 }
 
-.border-top {
-  border-top: 1px solid #dee2e6 !important;
+.border-topt {
+  border-top: 1px solid #dee2e6;
 }
 
-.border-3 {
-  border-width: 3px !important;
+.border-3t {
+  border-width: 3px;
 }
 
-.my-2 {
-  margin-top: 0.5rem !important;
-  margin-bottom: 0.5rem !important;
+.my- {
+  margin-top: 0.5rem;
+  margin-bottom: 0.5rem;
 }
 
 .debate .info {
@@ -736,8 +736,8 @@ figure {
   right: 0;
 }
 
-.flex-row-reverse {
-  flex-direction: row-reverse !important;
+.flex-row-r {
+  flex-direction: row-reverse;
 }
 
 .newsletter-signup {
@@ -922,13 +922,13 @@ article .wrap .category a {
 }
 
 @media (min-width: 576px) {
-  .p-sm-2 {
-    padding: 0.5rem !important;
+  .p-sm- {
+    padding: 0.5rem;
   }
 
-  .px-sm-3 {
-    padding-right: 1rem !important;
-    padding-left: 1rem !important;
+  .px-sm- {
+    padding-right: 1rem;
+    padding-left: 1rem;
   }
 }
 
@@ -1004,14 +1004,6 @@ article .wrap .category a {
 }
 
 @media (min-width: 768px) {
-  .d-md-block {
-    display: block !important;
-  }
-
-  .d-md-none {
-    display: none !important;
-  }
-
   .col-md-4 {
     flex: 0 0 auto;
     width: 33.3333333333%;
