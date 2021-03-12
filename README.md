@@ -60,4 +60,4 @@ Give a ⭐️ if you like this project.!
 
 ## 📝 License
 
-This project is [MIT](https://gist.github.com/jwage/221634) licensed.
+This project is [Microverse](https://microverse.org) licensed.
