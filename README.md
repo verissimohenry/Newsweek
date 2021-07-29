@@ -1,6 +1,6 @@
-# Using Bootstrap - Milestone 1 
+# Using Bootstrap 
 
-> In the first milestone, we were asked to  prepare the tools to develop this website and will create 2 small sections(ie the Header and footer).
+> In this project, we were asked to prepare the tools to develop this website and will create 2 small sections(ie the Header and footer).
 > We were asked to  Create these sections of the website for the 3 screen sizes.
 
 ![screenshot](images/sce.png)
